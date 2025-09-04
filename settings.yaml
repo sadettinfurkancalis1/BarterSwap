@@ -1,11 +1,10 @@
 database:
-    host:
-    port:
-    name:
-    user:
-    password:
+    host: "localhost"
+    port: 5432
+    name: "barterswap"
+    user: "barterswap_user"
+    password: "BarterSwapSecure2025Pass"
 jwt:
-    secret_key: ""
-
+    secret_key: "your_jwt_secret_key"
 private_hash:
-    password: ""
+    password: "your_private_hash_password"
